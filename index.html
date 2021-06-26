@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form & javascript</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <form class="form-wraper" action="" method="POST">
+            <div class="form-wraper">
+                <label for="username">Username</label>
+                <input class="input-wraper" type="text" id="username" name="user" placeholder="Enter Your Username..." required>
+            </div>
+           
+            <div class="form-wraper">
+                <label for="passw">Password</label>
+                <input class="input-wraper" type="password" id="passw" name="mypassword" placeholder="Enter Your Password.." required>
+            </div>
+
+            <div class="form-wraper">
+                <label for="message">Your Message</label>
+                <textarea class="textarea-wraper" id="message" placeholder="Enter Your Message"></textarea>
+            </div>
+
+            <div>
+                <div>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male"> Male</label>    
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female"> Female</label>
+                </div>          
+            </div>
+
+            <div>
+                <div>
+                    <input type="checkbox" name="musichobby" id="music">
+                    <label for="music"> Music</label>    
+                </div>
+                <div>
+                    <input type="checkbox" name="dancehobby" id="dance">
+                    <label for="dance"> Dance</label>
+                </div>          
+            </div>
+          
+            <button class="btn-submit" type="submit"> Submit </button>
+        </form>
+    </section>
+    
+</body>
+</html>
